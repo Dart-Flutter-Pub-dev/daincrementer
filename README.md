@@ -1,6 +1,6 @@
 # Daincrementer
 
-A *Flutter* package to automatically increments the version code of your pubspec.
+A *Dart* package to automatically increments the version code of your pubspec.
 
 ## Installation
 
@@ -8,7 +8,7 @@ Add the following dependency to your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  daincrementer: ^1.0.0
+  daincrementer: ^1.1.0
 ```
 
 #### Run the updater

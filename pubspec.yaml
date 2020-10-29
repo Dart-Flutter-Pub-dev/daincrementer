@@ -1,12 +1,7 @@
 name: daincrementer
-description: A Flutter package to automatically increments the version code of your pubspec.
-version: 1.0.0
+description: A Dart package to automatically increments the version code of your pubspec.
+version: 1.1.0
 homepage: https://github.com/mauriciotogneri/daincrementer
 
 environment:
   sdk: ">=2.9.0 <3.0.0"
-
-dependencies:
-
-  flutter:
-    sdk: flutter
