@@ -15,7 +15,7 @@ Future<void> main(List<String> args) async {
     final String fullVersion = match.group(0)!;
     final int versionCode = int.parse(match.group(1)!);
     final String newVersion =
-        fullVersion.replaceAll('$versionCode', '${versionCode + 1}');
+        fullVersion.replaceAll('+$versionCode', '+${versionCode + 1}');
     final String newContent = content.replaceAll(fullVersion, newVersion);
     await file.writeAsString(newContent);
   } else {
