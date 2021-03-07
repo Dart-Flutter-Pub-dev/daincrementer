@@ -8,7 +8,7 @@ Add the following dependency to your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  daincrementer: ^1.1.0
+  daincrementer: ^1.2.0
 ```
 
 #### Run the updater
